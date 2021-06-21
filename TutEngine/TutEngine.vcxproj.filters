@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\ImGUI">
+      <UniqueIdentifier>{07b4b9c6-2eab-4d0b-8a8f-b0560a94ae9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Core">
+      <UniqueIdentifier>{bcd567a9-893b-4ee7-a2bc-fdf0de5ab26d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Components">
+      <UniqueIdentifier>{d51ce7b8-ccbc-42e7-aba7-441d1506b07b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Components">
+      <UniqueIdentifier>{a62729ae-fc8c-4ad4-b7b6-a690292d6b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ShadersEditor">
+      <UniqueIdentifier>{936365c2-98d4-4561-9be4-2dd0192fc454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GraphEditor">
+      <UniqueIdentifier>{af448e1c-9226-4d06-85cc-be603f1785ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ImGUI">
+      <UniqueIdentifier>{af63b6ee-e8f8-478b-b809-e53c3e0a7ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\PlatformDepend">
+      <UniqueIdentifier>{9736da4c-0338-455f-b961-d83930bd9daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\PlatformDepend\Windows">
+      <UniqueIdentifier>{7f45fc94-0acc-43e4-bee2-e52be2314495}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TutEngine.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="StageRenderer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProject.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorTab.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeLookCamera.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="StageObject.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentFactory.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="StageComponent.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="UIItem.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="DragNDropManager.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectTab.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetsDatabase.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Asset.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectInit.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetGuiFactory.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="StageViewTab.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="HierarchyTab.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesTab.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolsTab.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="BehaviorTree.cpp">
+      <Filter>Исходные файлы\GraphEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Исходные файлы\GraphEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderNode.cpp">
+      <Filter>Исходные файлы\ShadersEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderGenerator.cpp">
+      <Filter>Исходные файлы\ShadersEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeView.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui_Docking\imgui.cpp">
+      <Filter>Исходные файлы\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui_Docking\imgui_draw.cpp">
+      <Filter>Исходные файлы\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui_Docking\imgui_impl_glfw.cpp">
+      <Filter>Исходные файлы\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui_Docking\imgui_impl_opengl3.cpp">
+      <Filter>Исходные файлы\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui_Docking\imgui_tables.cpp">
+      <Filter>Исходные файлы\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui_Docking\imgui_widgets.cpp">
+      <Filter>Исходные файлы\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="DataDragNDrop.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsOle.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StageRenderer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProject.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorTab.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Файлы заголовков\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeLookCamera.h">
+      <Filter>Файлы заголовков\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Файлы заголовков\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="StageObject.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentFactory.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="StageComponent.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="UIItem.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="DragNDropManager.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectTab.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetsDatabase.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Asset.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectInit.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetGuiFactory.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="StageViewTab.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="HierarchyTab.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesTab.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolsTab.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderNode.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviorTree.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderGenerator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeView.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui_Docking\imconfig.h">
+      <Filter>Файлы заголовков\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui_Docking\imgui.h">
+      <Filter>Файлы заголовков\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui_Docking\imgui_impl_glfw.h">
+      <Filter>Файлы заголовков\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui_Docking\imgui_impl_opengl3.h">
+      <Filter>Файлы заголовков\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui_Docking\imgui_internal.h">
+      <Filter>Файлы заголовков\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui_Docking\imstb_rectpack.h">
+      <Filter>Файлы заголовков\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui_Docking\imstb_textedit.h">
+      <Filter>Файлы заголовков\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui_Docking\imstb_truetype.h">
+      <Filter>Файлы заголовков\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDragNDrop.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsOle.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

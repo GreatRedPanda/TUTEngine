@@ -1,0 +1,8 @@
+﻿cl : командная строка warning D9002: пропуск неизвестного параметра "/NODEFAULTLIB:libcmt.lib"
+cl : командная строка warning D9002: пропуск неизвестного параметра "/NODEFAULTLIB:msvcrt.lib"
+cl : командная строка warning D9002: пропуск неизвестного параметра "/NODEFAULTLIB:libcmtd.lib"
+  HierarchyTab.cpp
+  WindowsOle.cpp
+  Создание кода...
+LINK : warning LNK4098: библиотека по умолчанию "MSVCRT" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+  TutEngine.vcxproj -> D:\C++Projects\TUTEngine\Debug\TutEngine.exe

@@ -1,0 +1,9 @@
+﻿cl : командная строка warning D9002: пропуск неизвестного параметра "/NODEFAULTLIB:libcmt.lib"
+cl : командная строка warning D9002: пропуск неизвестного параметра "/NODEFAULTLIB:msvcrt.lib"
+cl : командная строка warning D9002: пропуск неизвестного параметра "/NODEFAULTLIB:libcmtd.lib"
+  ProjectInit.cpp
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 1946 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  TutEngine.vcxproj -> D:\C++Projects\TUTEngine\Release\TutEngine.exe
